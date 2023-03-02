@@ -2,37 +2,114 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Feed forward controller accounts for the __________ changes.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Set point",
+        "b": "Load",
+        "c": " Both the above",
+        "d": "None of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Cascade control means",
+      "answers": {
+        "a": "More than one feed-back loop  ",
+        "b": "Feed forward control",
+        "c": "On-off control",
+        "d": "One feed-back loop"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The derivative control action is typically used when controlling, but rarely used when controlling.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Flow, Level ",
+        "b": "Temperature, Flow ",
+        "c": "pH, Temperature",
+        "d": "Level, Temperature "
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The response of two tanks of same size and resistance in series is",
+      "answers": {
+        "a": "Under damped",
+        "b": " Over damped  ",
+        "c": "Critically damped",
+        "d": "None of the above "
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a difference between feedforward and cascade control?",
+      "answers": {
+        "a": "Cascade control uses two controllers ",
+        "b": "Feedforward uses a disturbance model to determine the feedforward gain",
+		"c": "Cascade has an inner control loop to directly reject disturbances",
+        "d": "All of the above"
+        
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "which one of the following controllers increases the order of the system by one?",
+      "answers": {
+        "a": " P-controller ",
+        "b": "P-I controller",
+        "c": "None of these",
+        "d": " All of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Given the following two transfer functions for a process and disturbance, find the feed forward control gain K<sub>ff</sub>.<br/><img src='./images/q1.png'>",
+      "answers": {
+        "a": "-4/7 ",
+        "b": "7",
+        "c": "5/7",
+        "d": " None of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider a control system shown in figure with feed forward action for rejection of measurable disturbance d(t).The value of k for which the disturbance response at the output y(t) is zero is,<br/><img src='./images/q2.png'>",
+      "answers": {
+        "a": "-2 ",
+        "b": "1",
+        "c": "-1",
+        "d": "2 "
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }, 
+    {
+      "question": "Which of the following is not a differential pressure flow meter?",
+      "answers": {
+        "a": " Rotameter ",
+        "b": "Flow Nozzle",
+        "c": "Orifice meter ",
+        "d": "Venturi meter "
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The level of a liquid under pressure can be measured using ",
+      "answers": {
+        "a": " Differential pressure manometer ",
+        "b": " Bubbler System",
+        "c": "Air-trap system ",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
