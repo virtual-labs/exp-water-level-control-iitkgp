@@ -2,38 +2,120 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Liquid flow rate is measured using,",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Orifice Plate",
+        "b": "Pirani Gauge",
+        "c": "Pyrometer",
+        "d": "Bourdon Tube"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Orifices are used to measure",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": " Velocity",
+        "b": "rate of flow",
+        "c": "Pressure",
+        "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Bernoulli’s Equation is a mathematical expression of:",
+      "answers": {
+        "a": "The ratio of kinetic to viscous forces in a flow stream",
+        "b": "Potential and kinetic energies in a flow stream",
+        "c": "Fluid density and compressibility in a restriction",
+        "d": "Vertical height and pressure for a static fluid"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a linear time in variant system, an optimal controller can be designed if",
+      "answers": {
+        "a": "The system is controllable and observable",
+        "b": "The system is uncontrollable but stable",
+        "c": "The system is unstable but observable",
+        "d": "The system is stable but unobservable"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The function of the proportional mode is to ____________?",
+      "answers": {
+        "a": "Provide Gain",
+        "b": "Eliminate Offsets",
+        "c": "To speed up the response and minimize the overshoot",
+        "d": "All of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "The function of the proportional plus integral mode is to ____________?",
+      "answers": {
+        "a": "Provide Gain",
+        "b": "Eliminate Offsets",
+        "c": "To speed up the response and minimize the overshoot",
+        "d": "All of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },	
+	
+	{
+      "question": "The feed forward control system:",
+      "answers": {
+        "a": "Cannot make corrections until a measurable error exists",
+        "b": "Is theoretically capable of perfect control",
+        "c": "Makes a change in output that is the integrated error",
+        "d": "Requires little knowledge of the process before installation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Strain gage pressure transducers are used to measure __________ pressures.",
+      "answers": {
+        "a": "Gage as well as vacuum",
+        "b": "Absolute as well as differential",
+        "c": "Both the above",
+        "d": "None of the above"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+	
+	
+	{
+      "question": "What is a process control system?",
+      "answers": {
+        "a": "system to keep the parameters at zero value",
+        "b": " system to maintain the parameters constant",
+        "c": "system to keep the parameters at highest value",
+        "d": "system to check the voltage"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "In a single tank system, the transfer function of __________ to inlet flow rate is 1/TS+1.",
+      "answers": {
+        "a": "Level",
+        "b": "Outlet flow rate",
+        "c": "Both the above",
+        "d": " None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
+	
   ]
 }
