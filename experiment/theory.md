@@ -8,7 +8,7 @@ The Coupled-Tank plant is a "Two-Tank" module consisting of a pump with a water 
 sensors and available for feedback. They are namely the water levels in tanks 1 and 2.Proportional plus-Integral-plus-Feedforward-based water level controller has been used here.the Coupled-Tank system is used in two different configurations, namely configuration-1 and configuration-2. In configuration-1, the control challenge is to track to a desired trajectory the water level in the top tank (i.e. tank-1) from the voltage applied to the pump. The coupled-tank system in configuration-2 is an example of state coupling. In configuration-2,the control challenge is to track to a desired trajectory the water level in the bottom tank (i.e.tank-2) from the water flow coming out of the top tank (i.e. tank-1).
 				
 <div align="center">				
-<img alt="" src="./images/fig1.png" style="width:222px;height:483px;">
+<img alt="" src="./images/fig1.png" style="width:40%;height:80%;">
 </div>
 
 **Configuration-1:**
@@ -64,7 +64,7 @@ $$V_p = V_ff+ V_{p1}$$
 The feedforward gain Kff_1 does not influence the system characteristic equation.Therefore, the feedforward action can be neglected for the purpose of determining the denominator of the closed-loop transfer function.
 				
 <div align="center">				
-<img alt="" src="./images/t2.png" style="width:553px;height:310px;">
+<img alt="" src="./images/t2.png" style="width:60%;height:40%;">
 </div>
 				
 **Configuration-2:**
@@ -122,7 +122,7 @@ $$L_{ff_1} = k_{ff_2}L{r_2}$$
 $$L_{r_1} = L_{11}+ L_{ff_1}$$
 				
 <div align="center">				
-<img alt="" src="./images/t3.png" style="width:553px;height:310px;">
+<img alt="" src="./images/t3.png" style="width:60%;height:40%;">
 </div>
 						
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>								
