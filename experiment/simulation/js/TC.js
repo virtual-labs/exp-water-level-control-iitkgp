@@ -19,6 +19,7 @@ function config1control(){
 document.getElementById('controller').src = "./images/config-1.png";	
 	document.getElementById('ov').removeAttribute('readonly');
 	document.getElementById('ts').removeAttribute('readonly');
+	document.getElementById('waterLevel1').removeAttribute('readonly');
 	document.getElementById('ov2').readOnly=true;
 	document.getElementById('ts2').readOnly=true;
 	
@@ -38,6 +39,7 @@ function config2control(){
 document.getElementById('controller').src = "./images/config-2.png";	
 	document.getElementById('ov2').removeAttribute('readonly');
 	document.getElementById('ts2').removeAttribute('readonly');
+	document.getElementById('waterLevel2').removeAttribute('readonly');
 	document.getElementById('ov').readOnly=true;
 	document.getElementById('ts').readOnly=true;
 	
@@ -157,7 +159,7 @@ function Tank1_Level(){
 	var Kp = parseFloat(3.30);//pump constant
 	var A_01= parseFloat(0.1781);//tank1 outlet orifice cross sectional area	
 	var g = 981;//gravitational const.
-	var L_10= 10;//equilibrium level of tank1;	
+	var L_10= document.getElementById('waterLevel1').value;//10;//equilibrium level of tank1;	
 	var Vp_ff = parseFloat(parseFloat(2.39)* parseFloat(Math.sqrt(10)));//feedforward gain k_ff =Ao1 * sqrt( 2 * g ) / Kp; = 2.39,root(L_10)=root(10)
 	
 	//////////////////////////Tank-2 parameters////////////////////////
@@ -283,7 +285,7 @@ function Tank2_Level(){
 	
 	//////////////////////////Tank-2 parameters////////////////////////
 	var A_02 = parseFloat(0.1781);//tank2 outlet orifice cross sectional area
-	var L_20= 8;//equilibrium level of tank2;
+	var L_20= document.getElementById('waterLevel2').value;//8;//equilibrium level of tank2;
 	var At_2 = parseFloat(15.5179);//tank2 inner cross sectional area
 	var L_ff1 = (1*L_20);//k_ff2 * L_20; acc to formula level feedforward gain (cm/cm)Kff_2 = Ao2^2 / Ao1^2; % = 1 
 	
