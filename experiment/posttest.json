@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Feed forward controller accounts for the __________ changes.",
+      "question": "1. Feed forward controller accounts for the __________ changes.",
       "answers": {
         "a": "Set point",
         "b": "Load",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Cascade control means",
+      "question": "2. Cascade control means",
       "answers": {
         "a": "More than one feed-back loop  ",
         "b": "Feed forward control",
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The derivative control action is typically used when controlling, but rarely used when controlling.",
+      "question": "3. The derivative control action is typically used when controlling, but rarely used when controlling.",
       "answers": {
         "a": "Flow, Level ",
         "b": "Temperature, Flow ",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The response of two tanks of same size and resistance in series is",
+      "question": "4. The response of two tanks of same size and resistance in series is",
       "answers": {
         "a": "Under damped",
         "b": " Over damped  ",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following is a difference between feedforward and cascade control?",
+      "question": "5. Which of the following is a difference between feedforward and cascade control?",
       "answers": {
         "a": "Cascade control uses two controllers ",
         "b": "Feedforward uses a disturbance model to determine the feedforward gain",
@@ -58,7 +58,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "which one of the following controllers increases the order of the system by one?",
+      "question": "6. which one of the following controllers increases the order of the system by one?",
       "answers": {
         "a": " P-controller ",
         "b": "P-I controller",
@@ -69,7 +69,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Given the following two transfer functions for a process and disturbance, find the feed forward control gain K<sub>ff</sub>.<br/><img src='./images/q1.png'>",
+      "question": "7. Given the following two transfer functions for a process and disturbance, find the feed forward control gain K<sub>ff</sub>.<br/><img src='./images/q1.png'>",
       "answers": {
         "a": "-4/7 ",
         "b": "7",
@@ -80,7 +80,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Consider a control system shown in figure with feed forward action for rejection of measurable disturbance d(t).The value of k for which the disturbance response at the output y(t) is zero is,<br/><img src='./images/q2.png'>",
+      "question": "8. Consider a control system shown in figure with feed forward action for rejection of measurable disturbance d(t).The value of k for which the disturbance response at the output y(t) is zero is,<br/><img src='./images/q2.png'>",
       "answers": {
         "a": "-2 ",
         "b": "1",
@@ -91,7 +91,7 @@
       "difficulty": "beginner"
     }, 
     {
-      "question": "Which of the following is not a differential pressure flow meter?",
+      "question": "9. Which of the following is not a differential pressure flow meter?",
       "answers": {
         "a": " Rotameter ",
         "b": "Flow Nozzle",
@@ -102,7 +102,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The level of a liquid under pressure can be measured using ",
+      "question": "10. The level of a liquid under pressure can be measured using ",
       "answers": {
         "a": " Differential pressure manometer ",
         "b": " Bubbler System",
