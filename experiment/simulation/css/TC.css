@@ -31,6 +31,22 @@
     position: relative;
 }
 
+#respT1{
+	display:block;
+	position: absolute;
+    top: 1%;
+    left: 27%;
+    width: 10%;
+    text-align: center;
+}
+#respT2{
+	display:none;
+	position: absolute;
+    top: 0.5%;
+    left: 27%;
+    width: 10%;
+    text-align: center;
+}
 
 .pipe {
 	background-color: rgb(0 0 0 / 0%);;
@@ -227,7 +243,7 @@
 	
 /*-----------------------------for tank2/pipe3 flow---------------------------*/	
 .basinflow1{
-	animation:basinflow1 2s linear forwards;	
+	animation:basinflow1 1s linear forwards;	
 }
 
 @keyframes basinflow1 {
@@ -237,7 +253,7 @@
 /*-------------------------------------------------------------------------*/		
 	
 .basinflow2{
-	animation:basinflow2 2s linear forwards;	
+	animation:basinflow2 1s linear forwards;	
 }
 
 @keyframes basinflow2 {
@@ -246,7 +262,7 @@
 }	
 /*-------------------------------------------------------------------------*/		
 .basinflow3{
-	animation:basinflow3 2s linear forwards;	
+	animation:basinflow3 1s linear forwards;	
 }
 
 @keyframes basinflow3 {
