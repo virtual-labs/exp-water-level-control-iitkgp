@@ -1,0 +1,120 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Liquid flow rate is measured using,",
+      "answers": {
+        "a": "Orifice Plate",
+        "b": "Pirani Gauge",
+        "c": "Pyrometer",
+        "d": "Bourdon Tube"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Orifices are used to measure",
+      "answers": {
+        "a": "Velocity",
+        "b": "Rate of flow",
+        "c": "Pressure",
+        "d": "None of these"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Bernoulli’s Equation is a mathematical expression of ______",
+      "answers": {
+        "a": "The ratio of kinetic to viscous forces in a flow stream",
+        "b": "Potential and kinetic energies in a flow stream",
+        "c": "Fluid density and compressibility in a restriction",
+        "d": "Vertical height and pressure for a static fluid"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. For a linear time invariant system, an optimal controller can be designed if _____",
+      "answers": {
+        "a": "The system is controllable and observable",
+        "b": "The system is uncontrollable but stable",
+        "c": "The system is unstable but observable",
+        "d": "The system is stable but unobservable"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The function of the proportional mode is to ____________?",
+      "answers": {
+        "a": "Provide Gain",
+        "b": "Eliminate Offsets",
+        "c": "To speed up the response and minimize the overshoot",
+        "d": "All of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "6. The function of the proportional plus integral mode is to ____________?",
+      "answers": {
+        "a": "Provide Gain",
+        "b": "Eliminate Offsets",
+        "c": "To speed up the response and minimize the overshoot",
+        "d": "All of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },	
+	
+	{
+      "question": "7. The feed forward control system ________",
+      "answers": {
+        "a": "Cannot make corrections until a measurable error exists",
+        "b": "Is theoretically capable of perfect control",
+        "c": "Makes a change in output that is the integrated error",
+        "d": "Requires little knowledge of the process before installation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+		
+	{
+      "question": "8. Which of the following statements is correct?",
+      "answers": {
+        "a": "By properly designing the PI controller, it is possible to make the transient response to a step input exhibit relatively small or no overshoot.",
+        "b": "The PI controller is a lag compensator.",
+        "c": "The characteristic of the PI controller is infinite gain at zero frequency.",
+        "d": "All of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "9. In a single tank system, the transfer function of __________ to inlet flow rate is 1/TS+1.",
+      "answers": {
+        "a": "Level",
+        "b": "Outlet flow rate",
+        "c": "Both of the above",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "10. __________ controller has the maximum stabilising time.",
+      "answers": {
+        "a": "P",
+        "b": "PI",
+        "c": "PID",
+        "d": "PD"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+	
+  ]
+}

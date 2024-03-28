@@ -1,0 +1,301 @@
+
+/home/runner/work/exp-water-level-control-iitkgp/exp-water-level-control-iitkgp/experiment/simulation/js/TC.js
+    17:10  warning  'config1control' is defined but never used   no-unused-vars
+    36:10  warning  'Level_Maintain1' is defined but never used  no-unused-vars
+    38:1   warning  '$' is not defined                           no-undef
+    39:1   warning  '$' is not defined                           no-undef
+    40:1   warning  '$' is not defined                           no-undef
+    41:1   warning  '$' is not defined                           no-undef
+    42:1   warning  '$' is not defined                           no-undef
+    46:10  warning  'Level_Track1' is defined but never used     no-unused-vars
+    48:1   warning  '$' is not defined                           no-undef
+    49:1   warning  '$' is not defined                           no-undef
+    50:1   warning  '$' is not defined                           no-undef
+    51:1   warning  '$' is not defined                           no-undef
+    52:1   warning  '$' is not defined                           no-undef
+    57:10  warning  'config2control' is defined but never used   no-unused-vars
+    77:10  warning  'Level_Maintain2' is defined but never used  no-unused-vars
+    79:1   warning  '$' is not defined                           no-undef
+    80:1   warning  '$' is not defined                           no-undef
+    81:1   warning  '$' is not defined                           no-undef
+    82:1   warning  '$' is not defined                           no-undef
+    83:1   warning  '$' is not defined                           no-undef
+    87:10  warning  'Level_Track2' is defined but never used     no-unused-vars
+    89:1   warning  '$' is not defined                           no-undef
+    90:1   warning  '$' is not defined                           no-undef
+    91:1   warning  '$' is not defined                           no-undef
+    92:1   warning  '$' is not defined                           no-undef
+    93:1   warning  '$' is not defined                           no-undef
+    98:10  warning  'Build' is defined but never used            no-unused-vars
+   104:11  warning  'CT' is defined but never used               no-unused-vars
+   110:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   124:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   125:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   126:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   127:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   128:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   129:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   130:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   131:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   132:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   133:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   135:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   136:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   150:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   154:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   155:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   156:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   157:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   158:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   159:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   160:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   161:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   162:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   163:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   164:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   165:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   168:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   169:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   170:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   171:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   172:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   173:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   174:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   175:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   176:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   177:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   178:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   179:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   180:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   181:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   182:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   207:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   208:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   209:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   210:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   230:64  warning  'math' is not defined                        no-undef
+   233:6   warning  'A_02' is assigned a value but never used    no-unused-vars
+   234:6   warning  'L_20' is assigned a value but never used    no-unused-vars
+   235:6   warning  'At_2' is assigned a value but never used    no-unused-vars
+   268:11  warning  'math' is not defined                        no-undef
+   295:18  warning  'CanvasJS' is not defined                    no-undef
+   298:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   299:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   300:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   302:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   304:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   305:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   310:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   322:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   374:6   warning  'A_02' is assigned a value but never used    no-unused-vars
+   375:6   warning  'L_20' is assigned a value but never used    no-unused-vars
+   376:6   warning  'At_2' is assigned a value but never used    no-unused-vars
+   378:14  warning  '$' is not defined                           no-undef
+   379:14  warning  '$' is not defined                           no-undef
+   380:14  warning  '$' is not defined                           no-undef
+   382:5   warning  'math' is not defined                        no-undef
+   385:5   warning  'math' is not defined                        no-undef
+   387:6   warning  'level1' is assigned a value but never used  no-unused-vars
+   387:15  warning  '$' is not defined                           no-undef
+   388:6   warning  'level2' is assigned a value but never used  no-unused-vars
+   388:15  warning  '$' is not defined                           no-undef
+   389:6   warning  'level3' is assigned a value but never used  no-unused-vars
+   389:15  warning  '$' is not defined                           no-undef
+   397:10  warning  't' is already defined                       no-redeclare
+   399:10  warning  '$' is not defined                           no-undef
+   429:11  warning  'math' is not defined                        no-undef
+   451:9   warning  't' is already defined                       no-redeclare
+   451:12  warning  'math' is not defined                        no-undef
+   451:24  warning  '$' is not defined                           no-undef
+   451:47  warning  'math' is not defined                        no-undef
+   453:10  warning  '$' is not defined                           no-undef
+   455:6   warning  'Vp_ff' is already defined                   no-redeclare
+   456:6   warning  'A' is already defined                       no-redeclare
+   457:6   warning  'A2' is already defined                      no-redeclare
+   459:6   warning  'zeta' is already defined                    no-redeclare
+   461:6   warning  'wn' is already defined                      no-redeclare
+   462:6   warning  'wn2' is already defined                     no-redeclare
+   464:6   warning  'Ki_1' is already defined                    no-redeclare
+   466:6   warning  'B' is already defined                       no-redeclare
+   467:6   warning  'zwn' is already defined                     no-redeclare
+   469:6   warning  'Kp_1' is already defined                    no-redeclare
+   472:6   warning  'voltlevel' is already defined               no-redeclare
+   473:7   warning  'const1' is already defined                  no-redeclare
+   478:6   warning  'y1' is already defined                      no-redeclare
+   480:6   warning  'y2' is already defined                      no-redeclare
+   481:6   warning  'y' is already defined                       no-redeclare
+   483:11  warning  'math' is not defined                        no-undef
+   505:9   warning  't' is already defined                       no-redeclare
+   505:12  warning  'math' is not defined                        no-undef
+   507:10  warning  '$' is not defined                           no-undef
+   509:6   warning  'Vp_ff' is already defined                   no-redeclare
+   510:6   warning  'A' is already defined                       no-redeclare
+   511:6   warning  'A2' is already defined                      no-redeclare
+   513:6   warning  'zeta' is already defined                    no-redeclare
+   515:6   warning  'wn' is already defined                      no-redeclare
+   516:6   warning  'wn2' is already defined                     no-redeclare
+   518:6   warning  'Ki_1' is already defined                    no-redeclare
+   520:6   warning  'B' is already defined                       no-redeclare
+   521:6   warning  'zwn' is already defined                     no-redeclare
+   523:6   warning  'Kp_1' is already defined                    no-redeclare
+   526:6   warning  'voltlevel' is already defined               no-redeclare
+   527:7   warning  'const1' is already defined                  no-redeclare
+   532:6   warning  'y1' is already defined                      no-redeclare
+   534:6   warning  'y2' is already defined                      no-redeclare
+   535:6   warning  'y' is already defined                       no-redeclare
+   537:11  warning  'math' is not defined                        no-undef
+   563:18  warning  'CanvasJS' is not defined                    no-undef
+   566:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   567:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   568:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   570:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   572:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   573:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   578:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   590:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   637:6   warning  'L_ff1' is assigned a value but never used   no-unused-vars
+   721:11  warning  'math' is not defined                        no-undef
+   735:18  warning  'CanvasJS' is not defined                    no-undef
+   738:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   739:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   741:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   743:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   744:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   749:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   760:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+   800:14  warning  '$' is not defined                           no-undef
+   801:14  warning  '$' is not defined                           no-undef
+   802:14  warning  '$' is not defined                           no-undef
+   804:5   warning  'math' is not defined                        no-undef
+   807:5   warning  'math' is not defined                        no-undef
+   810:6   warning  'level1' is assigned a value but never used  no-unused-vars
+   810:15  warning  '$' is not defined                           no-undef
+   811:6   warning  'level2' is assigned a value but never used  no-unused-vars
+   811:15  warning  '$' is not defined                           no-undef
+   812:6   warning  'level3' is assigned a value but never used  no-unused-vars
+   812:15  warning  '$' is not defined                           no-undef
+   816:10  warning  't' is already defined                       no-redeclare
+   819:11  warning  '$' is not defined                           no-undef
+   829:64  warning  'math' is not defined                        no-undef
+   905:11  warning  'math' is not defined                        no-undef
+   915:9   warning  't' is already defined                       no-redeclare
+   915:12  warning  'math' is not defined                        no-undef
+   915:24  warning  '$' is not defined                           no-undef
+   915:48  warning  'math' is not defined                        no-undef
+   917:6   warning  'A_02' is already defined                    no-redeclare
+   918:6   warning  'L_20' is already defined                    no-redeclare
+   918:11  warning  '$' is not defined                           no-undef
+   919:6   warning  'At_2' is already defined                    no-redeclare
+   920:6   warning  'L_ff1' is already defined                   no-redeclare
+   923:6   warning  'L_10' is already defined                    no-redeclare
+   924:6   warning  'At_1' is already defined                    no-redeclare
+   925:6   warning  'Kp' is already defined                      no-redeclare
+   926:6   warning  'A_01' is already defined                    no-redeclare
+   927:6   warning  'g' is already defined                       no-redeclare
+   928:6   warning  'Vp_ff' is already defined                   no-redeclare
+   928:64  warning  'math' is not defined                        no-undef
+   931:6   warning  'ov' is already defined                      no-redeclare
+   932:6   warning  'ts' is already defined                      no-redeclare
+   934:6   warning  'A' is already defined                       no-redeclare
+   935:6   warning  'A2' is already defined                      no-redeclare
+   937:6   warning  'zeta' is already defined                    no-redeclare
+   939:6   warning  'wn' is already defined                      no-redeclare
+   940:6   warning  'wn2' is already defined                     no-redeclare
+   942:6   warning  'Ki_1' is already defined                    no-redeclare
+   944:6   warning  'B' is already defined                       no-redeclare
+   945:6   warning  'zwn' is already defined                     no-redeclare
+   947:6   warning  'Kp_1' is already defined                    no-redeclare
+   950:6   warning  'voltlevel' is already defined               no-redeclare
+   952:7   warning  'const1' is already defined                  no-redeclare
+   957:6   warning  'y1' is already defined                      no-redeclare
+   959:6   warning  'y2' is already defined                      no-redeclare
+   960:6   warning  'y' is already defined                       no-redeclare
+   961:6   warning  'yL' is already defined                      no-redeclare
+   970:6   warning  'ovT' is already defined                     no-redeclare
+   971:6   warning  'tsT' is already defined                     no-redeclare
+   973:6   warning  'AT' is already defined                      no-redeclare
+   974:6   warning  'A2T' is already defined                     no-redeclare
+   976:6   warning  'zetaT' is already defined                   no-redeclare
+   978:6   warning  'wnT' is already defined                     no-redeclare
+   979:6   warning  'wn2T' is already defined                    no-redeclare
+   981:6   warning  'kicoeff' is already defined                 no-redeclare
+   983:6   warning  'Ki_2' is already defined                    no-redeclare
+   985:6   warning  'zwnT' is already defined                    no-redeclare
+   986:6   warning  'BT' is already defined                      no-redeclare
+   987:6   warning  'kpcoeff' is already defined                 no-redeclare
+   988:6   warning  'Kp_2' is already defined                    no-redeclare
+   991:6   warning  'voltlevel2' is already defined              no-redeclare
+   993:7   warning  'const2' is already defined                  no-redeclare
+   997:6   warning  'y1T' is already defined                     no-redeclare
+  1001:6   warning  'y2T' is already defined                     no-redeclare
+  1002:6   warning  'yT' is already defined                      no-redeclare
+  1004:11  warning  'math' is not defined                        no-undef
+  1014:9   warning  't' is already defined                       no-redeclare
+  1014:12  warning  'math' is not defined                        no-undef
+  1016:6   warning  'A_02' is already defined                    no-redeclare
+  1017:6   warning  'L_20' is already defined                    no-redeclare
+  1017:11  warning  '$' is not defined                           no-undef
+  1018:6   warning  'At_2' is already defined                    no-redeclare
+  1019:6   warning  'L_ff1' is already defined                   no-redeclare
+  1019:6   warning  'L_ff1' is assigned a value but never used   no-unused-vars
+  1022:6   warning  'L_10' is already defined                    no-redeclare
+  1023:6   warning  'At_1' is already defined                    no-redeclare
+  1024:6   warning  'Kp' is already defined                      no-redeclare
+  1025:6   warning  'A_01' is already defined                    no-redeclare
+  1026:6   warning  'g' is already defined                       no-redeclare
+  1027:6   warning  'Vp_ff' is already defined                   no-redeclare
+  1027:64  warning  'math' is not defined                        no-undef
+  1030:6   warning  'ov' is already defined                      no-redeclare
+  1031:6   warning  'ts' is already defined                      no-redeclare
+  1033:6   warning  'A' is already defined                       no-redeclare
+  1034:6   warning  'A2' is already defined                      no-redeclare
+  1036:6   warning  'zeta' is already defined                    no-redeclare
+  1038:6   warning  'wn' is already defined                      no-redeclare
+  1039:6   warning  'wn2' is already defined                     no-redeclare
+  1041:6   warning  'Ki_1' is already defined                    no-redeclare
+  1043:6   warning  'B' is already defined                       no-redeclare
+  1044:6   warning  'zwn' is already defined                     no-redeclare
+  1046:6   warning  'Kp_1' is already defined                    no-redeclare
+  1049:6   warning  'voltlevel' is already defined               no-redeclare
+  1051:7   warning  'const1' is already defined                  no-redeclare
+  1056:6   warning  'y1' is already defined                      no-redeclare
+  1058:6   warning  'y2' is already defined                      no-redeclare
+  1059:6   warning  'y' is already defined                       no-redeclare
+  1060:6   warning  'yL' is already defined                      no-redeclare
+  1069:6   warning  'ovT' is already defined                     no-redeclare
+  1070:6   warning  'tsT' is already defined                     no-redeclare
+  1072:6   warning  'AT' is already defined                      no-redeclare
+  1073:6   warning  'A2T' is already defined                     no-redeclare
+  1075:6   warning  'zetaT' is already defined                   no-redeclare
+  1077:6   warning  'wnT' is already defined                     no-redeclare
+  1078:6   warning  'wn2T' is already defined                    no-redeclare
+  1080:6   warning  'kicoeff' is already defined                 no-redeclare
+  1082:6   warning  'Ki_2' is already defined                    no-redeclare
+  1084:6   warning  'zwnT' is already defined                    no-redeclare
+  1085:6   warning  'BT' is already defined                      no-redeclare
+  1086:6   warning  'kpcoeff' is already defined                 no-redeclare
+  1087:6   warning  'Kp_2' is already defined                    no-redeclare
+  1090:6   warning  'voltlevel2' is already defined              no-redeclare
+  1092:7   warning  'const2' is already defined                  no-redeclare
+  1096:6   warning  'y1T' is already defined                     no-redeclare
+  1100:6   warning  'y2T' is already defined                     no-redeclare
+  1101:6   warning  'yT' is already defined                      no-redeclare
+  1103:11  warning  'math' is not defined                        no-undef
+  1119:18  warning  'CanvasJS' is not defined                    no-undef
+  1122:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  1123:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  1125:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  1127:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  1128:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  1133:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  1144:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  1177:10  warning  'simu1' is defined but never used            no-unused-vars
+  1178:18  warning  '$' is not defined                           no-undef
+  1192:10  warning  'simu2' is defined but never used            no-unused-vars
+  1193:18  warning  '$' is not defined                           no-undef
+  1206:10  warning  'plot' is defined but never used             no-unused-vars
+  1208:16  warning  '$' is not defined                           no-undef
+  1231:11  warning  'Refresh' is defined but never used          no-unused-vars
+
+✖ 296 problems (0 errors, 296 warnings)
+
