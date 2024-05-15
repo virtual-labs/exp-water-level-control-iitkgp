@@ -22,7 +22,7 @@ specified trajectory for the water level in the bottom tank (i.e. tank-2) using 
 <div align="center">				
 <img alt="" src="./images/fff.png" class="img-fluid">
 
-<b>Fig 1: Schematic of the Coupled-Tank Plant</b>
+<b>Fig. 1. Schematic of the Coupled-Tank Plant</b>
 </div>
 
 
@@ -99,7 +99,7 @@ Where,
 <div align="center">				
 <img alt="" src="./images/t2.png" class="img-fluid">
 
-<b>Fig 2: Tank-1 Water level PI plus Feedforward control loop</b>
+<b>Fig. 2. Tank-1 Water level PI plus Feedforward control loop</b>
 </div>
 
 
@@ -181,7 +181,7 @@ where,
 <div align="center">				
 <img alt="" src="./images/t3.png" class="img-fluid">
 
-<b>Fig 3: Tank 2 Water level PI plus Feedforward control loop</b>
+<b>Fig. 3. Tank 2 Water level PI plus Feedforward control loop</b>
 </div>
 
 
