@@ -7,7 +7,7 @@
 <b>Discipline | <b> Electrical Engineering 
 :--|:--|
 <b> Lab | <b> **Control and Instrumentation Lab**
-<b> Experiment|     <b> **Two Tank Water Level Control and Experiment 5**
+<b> Experiment|     <b> **Two Tank Water Level Control**
 
 
 ### About the Experiment 
