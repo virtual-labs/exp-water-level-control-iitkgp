@@ -2,7 +2,7 @@
 <div align="center">
 <img class="img-fluid"  src="./images/plantscth.png" alt="">
 
-<b>Fig 1: Schematic of the Coupled-Tank plant</b>
+<b>Fig. 1. Schematic of the Coupled-Tank plant</b>
 </div>
 
 
@@ -16,7 +16,7 @@ and 10 cm water level for tank-1.
 <div align="center">
 <img class="img-fluid"  src="./images/ps1.png" alt="">
 
-<b>Fig 2: Tank 1 configuration for water level response</b>
+<b>Fig. 2. Tank 1 configuration for water level response</b>
 </div>
 
 
@@ -25,7 +25,7 @@ and 10 cm water level for tank-1.
 <div align="center">
 <img class="img-fluid"  src="./images/ps2.png" alt="">
 
-<b>Fig 3: Tank 1 PI plus Feedforward controller</b> 
+<b>Fig. 3. Tank 1 PI plus Feedforward controller</b> 
 </div>
 
 
@@ -34,7 +34,7 @@ and 10 cm water level for tank-1.
 <div align="center">
 <img class="img-fluid"  src="./images/ps3.png" alt="">
 
-<b>Fig 4: Tank 1 configuration for water level tracking</b>
+<b>Fig. 4. Tank 1 configuration for water level tracking</b>
 </div>
 
 
@@ -55,7 +55,7 @@ and 8 cm water level for tank-2.
 <div align="center">
 <img class="img-fluid"  src="./images/ps5.png" alt="">
 
-<b>Fig 5: Tank 2 configuration for water level response</b>
+<b>Fig. 5. Tank 2 configuration for water level response</b>
 </div>
 
 
@@ -64,7 +64,7 @@ and 8 cm water level for tank-2.
 <div align="center">
 <img class="img-fluid"  src="./images/ps6.png" alt="">
 
-<b>Fig 6: Tank 2 PI plus Feedforward controller</b>
+<b>Fig. 6. Tank 2 PI plus Feedforward controller</b>
 </div>
 
 
