@@ -6,7 +6,7 @@
 
 <b>Discipline | <b> Electrical Engineering 
 :--|:--|
-<b> Lab | <b> **Control and Instrumentation Lab**
+<b> Lab | <b> **Control and Instrumentation Laboratory**
 <b> Experiment|     <b> **Two Tank Water Level Control**
 
 
