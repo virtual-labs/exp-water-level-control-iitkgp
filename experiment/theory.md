@@ -22,7 +22,7 @@ specified trajectory for the water level in the bottom tank (i.e. tank-2) using 
 <div align="center">				
 <img alt="" src="./images/fff.png" class="img-fluid">
 
-<b>Fig. 1. Schematic of the Coupled-Tank Plant</b>
+<b>Fig. 1. Schematic of the Coupled-Tank plant</b>
 </div>
 
 
