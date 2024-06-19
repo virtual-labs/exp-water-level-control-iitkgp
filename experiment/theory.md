@@ -50,7 +50,7 @@ $$ t_{s\_1} \leq 10 [ s ] $$
 
 The open loop transfer function of tank-1 for configuration-1 (voltage to level) is :
 
-$$ G_1(s) = \frac{\frac{k_p}{A_{01}}\sqrt{\frac{2L_{10}}{g}}}{(\frac{A_{1}}{A_{01}}\sqrt{\frac{2L_{10}}{g}}) s+1} .... (1) $$
+$$ G_1(s) = \frac{\frac{k_p}{A_{01}}\sqrt{\frac{2L_{10}}{g}}}{(\frac{A_{1}}{A_{01}}\sqrt{\frac{2L_{10}}{g}}) s+1} \tag 1 $$
 
 
 Where,
@@ -72,12 +72,12 @@ Equation (1) is derived from the nonlinear equation of configuration-1 (equation
 
 $$ \frac{d \ (change\ in \ volume\ in\ tank \ 1)}{dt} = F_{in} - F_{out} $$
 
-$$ \frac{dL_1}{dt}= \frac{k_p V_p}{A_1}- \frac{A_{01} \sqrt{2gL_1}}{A_1} ...(2)$$ 
+$$ \frac{dL_1}{dt}= \frac{k_p V_p}{A_1}- \frac{A_{01} \sqrt{2gL_1}}{A_1} \tag 2$$ 
 
 $$Nonlinear \ equation \ of \ tank-1$$
 
 
-$$ f(L_1,V_p)= f(L_{10},V_{p0})+ \frac{\partial f(L_{10},V_{p0})}{\partial{L_1}}(L_1 - L_{10})+ \frac{\partial f(L_{10},V_{p0})}{\partial{V_p}}(V_p - V_{p0}) ...(3)$$
+$$ f(L_1,V_p)= f(L_{10},V_{p0})+ \frac{\partial f(L_{10},V_{p0})}{\partial{L_1}}(L_1 - L_{10})+ \frac{\partial f(L_{10},V_{p0})}{\partial{V_p}}(V_p - V_{p0}) \tag 3$$
 
 $$Taylor \ series \ linearization$$
 
@@ -138,7 +138,7 @@ $$ t_{s \_ 2} \leq 20 [ s ] $$
 
 The open loop transfer function of tank-2 for configuration-2 (level to level) is :
 
-$$ G_2(s) = \frac{\frac{A_{01}}{A_{02}}\sqrt{\frac{L_{20}}{L_{10}}}}{(\frac{A_{2}}{A_{02}}\sqrt{\frac{2 \ L_{20}}{g}}) s + 1}...(4) $$
+$$ G_2(s) = \frac{\frac{A_{01}}{A_{02}}\sqrt{\frac{L_{20}}{L_{10}}}}{(\frac{A_{2}}{A_{02}}\sqrt{\frac{2 \ L_{20}}{g}}) s + 1} \tag 4 $$
 
 Where,
 
@@ -157,11 +157,11 @@ Equation (4) is derived from the nonlinear equation of configuration-2 (equation
 
 $$ \frac{d \ (change\ in \ volume\ in\ tank \ 2)}{dt} = F_{in} - F_{out} $$
 
-$$ \frac{dL_2}{dt}= \frac{A_{01}\sqrt{2gL_1}}{A_2}- \frac{A_{02}\sqrt{2gL_2}}{A_2}....(5)$$ 
+$$ \frac{dL_2}{dt}= \frac{A_{01}\sqrt{2gL_1}}{A_2}- \frac{A_{02}\sqrt{2gL_2}}{A_2} \tag 5$$ 
 
 $$Nonlinear \ equation \ of \ tank-2$$
 
-$$ f(L_2,L_1)= f(L_{20},L_{10})+ \frac{\partial f(L_{20},L_{10})}{\partial{L_2}}(L_2 - L_{20})+ \frac{\partial f(L_{20},L_{10})}{\partial{L_1}}(L_1 - L_{10})...(6) $$
+$$ f(L_2,L_1)= f(L_{20},L_{10})+ \frac{\partial f(L_{20},L_{10})}{\partial{L_2}}(L_2 - L_{20})+ \frac{\partial f(L_{20},L_{10})}{\partial{L_1}}(L_1 - L_{10}) \tag 6 $$
 
 $$Taylor \ series \ linearization$$
 
