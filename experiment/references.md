@@ -1,7 +1,7 @@
 ## References
 #### Books
 
-1) Modern Control Engineering - K. Ogata, Prentice Hall, 2010
+1) K. Ogata - Modern Control Engineering (2010, Prentice Hall)
 2) Farid Golnaraghi, Benjamin C. Kuo - Automatic Control Systems (2009, Wiley)
 
 
