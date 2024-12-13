@@ -1174,7 +1174,7 @@ document.getElementById('chartContainer').style.display  = "block";
 
 
 
-function simu1(){
+/*function simu1(){
 		var indexVal = $('#chkindex').val();
 		document.getElementById('r1').src ="./images/pause.png";
 		flow();
@@ -1200,7 +1200,69 @@ function simu2(){
 		if(indexVal == 4){
 		Tank2_Level_Track();
 		}
-	}
+	}*/
+
+function simu1(){
+var indexVal = $('#chkindex').val();
+document.getElementById('r1').src ="./images/pause.png";
+
+var time1 = $('#reft1').val();
+var time2 = $('#reft2').val();
+var time3 = $('#reft3').val();
+
+if(math.add(time1,time2,time3)<=100){
+flow();
+
+if(indexVal == 1){
+if(document.getElementById('waterLevel1').value<=15){
+Tank1_Level();
+}
+if(document.getElementById('waterLevel1').value>15){
+alert('Enter a level value less or equal to 15 cm');
+location.reload();
+}
+}
+if(indexVal == 2){
+Tank1_Level_Track();
+}
+
+}
+if(math.add(time1,time2,time3)>100){
+alert('Keep total level tracking time less than 100 sec');
+location.reload();
+}
+
+}
+
+function simu2(){
+var indexVal = $('#chkindex').val();
+document.getElementById('r2').src ="./images/pause.png";
+
+var time1 = $('#refts1').val();
+var time2 = $('#refts2').val();
+var time3 = $('#refts3').val();
+
+if(math.add(time1,time2,time3)<=100){
+flow();
+
+if(indexVal == 3){
+if(document.getElementById('waterLevel2').value<=15){
+Tank2_Level();
+}
+if(document.getElementById('waterLevel2').value>15){
+alert('Enter a level value less or equal to 15 cm');
+location.reload();
+}
+}
+if(indexVal == 4){
+Tank2_Level_Track();
+}
+}
+if(math.add(time1,time2,time3)>100){
+alert('Keep total level tracking time less than 100 sec');
+location.reload();
+}
+}
 
 
 function plot(){
