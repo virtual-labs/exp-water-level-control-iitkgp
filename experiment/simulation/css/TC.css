@@ -178,7 +178,7 @@
 /*---------------------------------------------------------------------*/
 /*-----------------------------for upipe5------------------------*/
 .uflow5{
-	animation:uflow5 1s linear forwards;	
+	animation:uflow5 0.5s linear forwards;	
 }
 
 @keyframes uflow5 {
@@ -383,6 +383,7 @@ position: absolute;
 	left:54.5%;
 	
 }
+/* TANK-1 AND TANK-2 LEVEL RESPONSE */
 :root {
   --change: 1000px;
 }
@@ -400,7 +401,7 @@ position: absolute;
 
 .tankfill{
 	
-	animation:tcon1 4s linear forwards;
+	animation:tcon1 3s linear forwards;
 }	
 
 @keyframes t2con1{
@@ -412,18 +413,145 @@ position: absolute;
 
 .tank2fill{
 	
-	animation:t2con1 4s linear forwards;
+	animation:t2con1 3s linear forwards;
 }
 
 
+/* TANK-1 TRACKING RESPONSE */
+:rootTrk1 {
+  --changeTrk1: 1000px;
+}
+:rootTrk2 {
+  --changeTrk2: 1000px;
+}
+:rootTrk3 {
+  --changeTrk3: 1000px;
+}
+
+/*TANK-1 TRACK LEVEL 1 */
+@keyframes ttrk1{
+	
+	from {height: 2%;}
+	to   {height: var(--changeTrk1);}
+}
+
+.tank1fill1{
+	
+	animation:ttrk1 3s linear forwards;
+}	
+/*TANK-1 TRACK LEVEL 2 */
+@keyframes ttrk2{
+	
+	from {height: var(--changeTrk1);}
+	to   {height: var(--changeTrk2);}
+}
+
+.tank1fill2{
+	
+	animation:ttrk2 3s linear forwards;
+}
+/*TANK-1 TRACK LEVEL 3 */
+@keyframes ttrk3{
+	
+	from {height: var(--changeTrk2);}
+	to   {height: var(--changeTrk3);}
+}
+
+.tank1fill3{
+	
+	animation:ttrk3 3s linear forwards;
+}
 
 
+ /* TANK-2 TRACKING RESPONSE */
+:rootTrk4 {
+  --changeTrk4: 1000px;
+}
+:rootTrk5 {
+  --changeTrk5: 1000px;
+}
+:rootTrk6 {
+  --changeTrk6: 1000px;
+}
 
+/*TANK-2 TRACK LEVEL 1 */
+@keyframes ttrk4{
+	
+	from {height: 2%;}
+	to   {height: var(--changeTrk4);}
+}
 
+.tank2fill1{
+	
+	animation:ttrk4 3s linear forwards;
+}	
+/*TANK-2 TRACK LEVEL 2 */
+@keyframes ttrk5{
+	
+	from {height: var(--changeTrk4);}
+	to   {height: var(--changeTrk5);}
+}
 
+.tank2fill2{
+	
+	animation:ttrk5 3s linear forwards;
+}
+/*TANK-2 TRACK LEVEL 3 */
+@keyframes ttrk6{
+	
+	from {height: var(--changeTrk5);}
+	to   {height: var(--changeTrk6);}
+}
 
+.tank2fill3{
+	
+	animation:ttrk6 3s linear forwards;
+}
+  
+  /* TANK-2 TRACKING RESPONSE for level changes of tank-1*/
+:rootTrk7 {
+  --changeTrk7: 1000px;
+}
+:rootTrk8 {
+  --changeTrk8: 1000px;
+}
+:rootTrk9 {
+  --changeTrk9: 1000px;
+}
 
- 
+/*TANK-2 TRACK LEVEL 1 */
+@keyframes ttrk7{
+	
+	from {height: 2%;}
+	to   {height: var(--changeTrk7);}
+}
+
+.tank2fill12{
+	
+	animation:ttrk7 3s linear forwards;
+}	
+/*TANK-2 TRACK LEVEL 2 */
+@keyframes ttrk8{
+	
+	from {height: var(--changeTrk7);}
+	to   {height: var(--changeTrk8);}
+}
+
+.tank2fill22{
+	
+	animation:ttrk8 3s linear forwards;
+}
+/*TANK-2 TRACK LEVEL 3 */
+@keyframes ttrk9{
+	
+	from {height: var(--changeTrk8);}
+	to   {height: var(--changeTrk9);}
+}
+
+.tank2fill32{
+	
+	animation:ttrk9 3s linear forwards;
+}
   
 
 

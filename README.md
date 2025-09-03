@@ -27,8 +27,8 @@ the purpose of this experiment is to track the water level in either tank-1 or t
 <br>			  
 
 <div align="center">
-<img class="img-fluid"  src="./experiment/images/t1.png" alt=""><br>
-<figcaption >Fig. 1. The Coupled-Tank plant </figcaption>
+<img class="img-fluid"  src="./images/t1.png" alt=""><br>
+<b>Fig. 1. The Coupled-Tank plant </b>
 </div>
 
 <b>Subject matter expertise | <b> **Prof. Alok Kanti Deb**
