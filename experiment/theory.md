@@ -40,7 +40,7 @@ requirements<br/><br/>
 
 2. The percentage overshoot should be less than 11&percnt;, i.e. <br>
 
-$$ PO_{1} \leq 11\% \tag{1} $$
+$$ PO_{1} \leq 11 \\% \tag{1} $$
 
 3. The 2&percnt; settling time should be less than 10 seconds, i.e. 
 $$ t_{s\_1} \leq 10 [ s ] \tag{2}$$
@@ -116,7 +116,7 @@ requirements<br><br/>
 
 2. The Percent Overshoot should be less than 10&percnt;, i.e.<br>
 
-$$ PO_{2} \leq 10\% \tag{8} $$
+$$ PO_{2} \leq 10 \\% \tag{8} $$
 
 3. The 2% Settling Time should be less than 20 seconds, i.e.
 $$ t_{s \_ 2} \leq 20 [ s ] \tag{9}$$
