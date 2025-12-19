@@ -2,18 +2,18 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Feed forward controller accounts for the __________ changes.",
+      "question": "1. Feed forward controller accounts for the __________ changes.",
       "answers": {
         "a": "Set point",
         "b": "Load",
-        "c": " Both the above",
+        "c": "Both of the above",
         "d": "None of the above"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Cascade control means",
+      "question": "2. Cascade control means _______",
       "answers": {
         "a": "More than one feed-back loop  ",
         "b": "Feed forward control",
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The derivative control action is typically used when controlling, but rarely used when controlling.",
+      "question": "3. The derivative control action is typically used when controlling ______, but rarely used when controlling ______.",
       "answers": {
         "a": "Flow, Level ",
         "b": "Temperature, Flow ",
@@ -34,42 +34,32 @@
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
+    
     {
-      "question": "The response of two tanks of same size and resistance in series is",
+      "question": "4. The PD controller is a simplified version of the ______",
       "answers": {
-        "a": "Under damped",
-        "b": " Over damped  ",
-        "c": "Critically damped",
-        "d": "None of the above "
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which of the following is a difference between feedforward and cascade control?",
-      "answers": {
-        "a": "Cascade control uses two controllers ",
-        "b": "Feedforward uses a disturbance model to determine the feedforward gain",
-		"c": "Cascade has an inner control loop to directly reject disturbances",
+        "a": "Lag compensator",
+        "b": "Lead compensator",
+		"c": "Lag-Lead compensator",
         "d": "All of the above"
         
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "which one of the following controllers increases the order of the system by one?",
-      "answers": {
-        "a": " P-controller ",
-        "b": "P-I controller",
-        "c": "None of these",
-        "d": " All of the above"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Given the following two transfer functions for a process and disturbance, find the feed forward control gain K<sub>ff</sub>.<br/><img src='./images/q1.png'>",
+      "question": "5. Which one of the following controllers increases the order of the system by one ?",
+      "answers": {
+        "a": " P controller ",
+        "b": "PI controller",
+        "c": "PD controller",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Given the following two transfer functions for a process and disturbance, find the feedforward control gain K<sub>ff</sub>.<br/><img src='./images/q1.png'>",
       "answers": {
         "a": "-4/7 ",
         "b": "7",
@@ -80,18 +70,18 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Consider a control system shown in figure with feed forward action for rejection of measurable disturbance d(t).The value of k for which the disturbance response at the output y(t) is zero is,<br/><img src='./images/q2.png'>",
+      "question": "7. the PD controller is a ________",
       "answers": {
-        "a": "-2 ",
-        "b": "1",
-        "c": "-1",
-        "d": "2 "
+        "a": "High-pass filter",
+        "b": "Low-pass filter",
+        "c": "Band-pass filter",
+        "d": "None of the above"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     }, 
     {
-      "question": "Which of the following is not a differential pressure flow meter?",
+      "question": "8. Which of the following is not a differential pressure flow meter ?",
       "answers": {
         "a": " Rotameter ",
         "b": "Flow Nozzle",
@@ -102,7 +92,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The level of a liquid under pressure can be measured using ",
+      "question": "9. The level of a liquid under pressure can be measured using ______ ",
       "answers": {
         "a": " Differential pressure manometer ",
         "b": " Bubbler System",
@@ -110,6 +100,18 @@
         "d": "None of the above"
       },
       "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "10. On which type of flow, equation of Bernoulli is applicable ?",
+      "answers": {
+        "a": "Irrotational flow",
+        "b": "Incompressible flow",
+        "c": "Compressible flow",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Liquid flow rate is measured using,",
+      "question": "1. Liquid flow rate is measured using,",
       "answers": {
         "a": "Orifice Plate",
         "b": "Pirani Gauge",
@@ -13,10 +13,10 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Orifices are used to measure",
+      "question": "2. Orifices are used to measure",
       "answers": {
-        "a": " Velocity",
-        "b": "rate of flow",
+        "a": "Velocity",
+        "b": "Rate of flow",
         "c": "Pressure",
         "d": "None of these"
       },
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Bernoulli’s Equation is a mathematical expression of:",
+      "question": "3. Bernoulli’s Equation is a mathematical expression of ______",
       "answers": {
         "a": "The ratio of kinetic to viscous forces in a flow stream",
         "b": "Potential and kinetic energies in a flow stream",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "For a linear time in variant system, an optimal controller can be designed if",
+      "question": "4. For a linear time invariant system, an optimal controller can be designed if _____",
       "answers": {
         "a": "The system is controllable and observable",
         "b": "The system is uncontrollable but stable",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The function of the proportional mode is to ____________?",
+      "question": "5. The function of the proportional mode is to ____________?",
       "answers": {
         "a": "Provide Gain",
         "b": "Eliminate Offsets",
@@ -57,7 +57,7 @@
       "difficulty": "beginner"
     },
 	{
-      "question": "The function of the proportional plus integral mode is to ____________?",
+      "question": "6. The function of the proportional plus integral mode is to ____________?",
       "answers": {
         "a": "Provide Gain",
         "b": "Eliminate Offsets",
@@ -69,7 +69,7 @@
     },	
 	
 	{
-      "question": "The feed forward control system:",
+      "question": "7. The feed forward control system ________",
       "answers": {
         "a": "Cannot make corrections until a measurable error exists",
         "b": "Is theoretically capable of perfect control",
@@ -79,39 +79,38 @@
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
-	
+		
 	{
-      "question": "Strain gage pressure transducers are used to measure __________ pressures.",
+      "question": "8. Which of the following statements is correct?",
       "answers": {
-        "a": "Gage as well as vacuum",
-        "b": "Absolute as well as differential",
-        "c": "Both the above",
-        "d": "None of the above"
+        "a": "By properly designing the PI controller, it is possible to make the transient response to a step input exhibit relatively small or no overshoot.",
+        "b": "The PI controller is a lag compensator.",
+        "c": "The characteristic of the PI controller is infinite gain at zero frequency.",
+        "d": "All of the above"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
 	
-	
 	{
-      "question": "What is a process control system?",
+      "question": "9. In a single tank system, the transfer function of __________ to inlet flow rate is 1/TS+1.",
       "answers": {
-        "a": "system to keep the parameters at zero value",
-        "b": " system to maintain the parameters constant",
-        "c": "system to keep the parameters at highest value",
-        "d": "system to check the voltage"
+        "a": "Level",
+        "b": "Outlet flow rate",
+        "c": "Both of the above",
+        "d": "None of the above"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
 	
 	{
-      "question": "In a single tank system, the transfer function of __________ to inlet flow rate is 1/TS+1.",
+      "question": "10. __________ controller has the maximum stabilising time.",
       "answers": {
-        "a": "Level",
-        "b": "Outlet flow rate",
-        "c": "Both the above",
-        "d": " None of the above"
+        "a": "P",
+        "b": "PI",
+        "c": "PID",
+        "d": "PD"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
