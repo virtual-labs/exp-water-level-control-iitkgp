@@ -1,0 +1,118 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Feed forward controller accounts for the __________ changes.",
+      "answers": {
+        "a": "Set point",
+        "b": "Load",
+        "c": "Both of the above",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Cascade control means _______",
+      "answers": {
+        "a": "More than one feed-back loop  ",
+        "b": "Feed forward control",
+        "c": "On-off control",
+        "d": "One feed-back loop"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The derivative control action is typically used when controlling ______, but rarely used when controlling ______.",
+      "answers": {
+        "a": "Flow, Level ",
+        "b": "Temperature, Flow ",
+        "c": "pH, Temperature",
+        "d": "Level, Temperature "
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "4. The PD controller is a simplified version of the ______",
+      "answers": {
+        "a": "Lag compensator",
+        "b": "Lead compensator",
+		"c": "Lag-Lead compensator",
+        "d": "All of the above"
+        
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which one of the following controllers increases the order of the system by one ?",
+      "answers": {
+        "a": " P controller ",
+        "b": "PI controller",
+        "c": "PD controller",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Given the following two transfer functions for a process and disturbance, find the feedforward control gain K<sub>ff</sub>.<br/><img src='./images/q1.png'>",
+      "answers": {
+        "a": "-4/7 ",
+        "b": "7",
+        "c": "5/7",
+        "d": " None of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. the PD controller is a ________",
+      "answers": {
+        "a": "High-pass filter",
+        "b": "Low-pass filter",
+        "c": "Band-pass filter",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }, 
+    {
+      "question": "8. Which of the following is not a differential pressure flow meter ?",
+      "answers": {
+        "a": " Rotameter ",
+        "b": "Flow Nozzle",
+        "c": "Orifice meter ",
+        "d": "Venturi meter "
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. The level of a liquid under pressure can be measured using ______ ",
+      "answers": {
+        "a": " Differential pressure manometer ",
+        "b": " Bubbler System",
+        "c": "Air-trap system ",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "10. On which type of flow, equation of Bernoulli is applicable ?",
+      "answers": {
+        "a": "Irrotational flow",
+        "b": "Incompressible flow",
+        "c": "Compressible flow",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
